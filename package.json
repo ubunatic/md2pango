@@ -1,0 +1,32 @@
+{
+  "name": "md2pango",
+  "version": "1.0.0",
+  "description": "Markdown to Pango Markup Converter",
+  "main": "src/md2pango.js",
+  "bin": {
+    "md2pango": "src/md2pango.js"
+  },
+  "scripts": {
+    "test": "./test.sh",
+    "reuse": "reuse addheader -y 2021 src/md2pango.js -l MIT -c 'Uwe Jugel'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubunatic/md2pango.git"
+  },
+  "keywords": [
+    "pango",
+    "markdown",
+    "gjs",
+    "gtk",
+    "gnome",
+    "markup",
+    "converter"
+  ],
+  "author": "Uwe Jugel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ubunatic/md2pango/issues"
+  },
+  "homepage": "https://github.com/ubunatic/md2pango#readme"
+}
