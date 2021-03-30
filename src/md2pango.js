@@ -6,10 +6,8 @@
 
 // This file is part of md2pango (https://github.com/ubunatic/md2pango).
 
-const H1="H1", H2="H2", H3="H3", UL="BULLET", OL="LIST"
-const CODE="CODE", TEXT="TEXT"
-const BOLD="BOLD", EMPH="EMPH", PRE="PRE"
-const LINK="LINK", URI="URI"
+const H1="H1", H2="H2", H3="H3", UL="BULLET", OL="LIST", CODE="CODE"
+const BOLD="BOLD", EMPH="EMPH", PRE="PRE", LINK="LINK"
 
 let sub_h1, sub_h2, sub_h3
 
@@ -31,8 +29,8 @@ const m2p_styles = [
     { name: EMPH, re: /(^|[^\*])(\*)(.*)(\*)/g,   sub: "$1<i>$3</i>" },
     { name: EMPH, re: /(\*)(.*)(\*)([^\*]|$)/g,   sub: "<i>$3</i>$4" },    
     { name: PRE,  re: /(`)([^`]*)(`)/g,           sub: "<tt>$2</tt>" },
-    { name: LINK, re: /(\[)(.*)(\]\()(.+)(\))/g,  sub: "<a href='$4'>$2</a>" },
-    { name: LINK, re: /(\[)(.*)(\]\(\))/g,        sub: "<a href='$2'>$2</a>" },
+    { name: LINK, re: /(!)?(\[)(.*)(\]\()(.+)(\))/g,  sub: "<a href='$5'>$3</a>" },
+    { name: LINK, re: /(!)?(\[)(.*)(\]\(\))/g,        sub: "<a href='$3'>$3</a>" },
 ]
 
 const re_comment = /^\s*<!--.*-->\s*$/

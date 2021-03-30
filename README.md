@@ -1,4 +1,5 @@
 # md2pango
+![md2pango](md2pango.svg)
 
 **The first Markdown to Pango Markup Converter!**
 
