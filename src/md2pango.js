@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 // SPDX-FileCopyrightText: 2021 Uwe Jugel
 //
 // SPDX-License-Identifier: MIT

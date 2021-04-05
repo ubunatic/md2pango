@@ -75,9 +75,11 @@ Use only one macro per line!
 * The effects of nesting styles are unpredictable (requires a smarter Markdown parser).
 * Multi-line list items are not supported.
 
-## License
+## Licenses
 
-[MIT](LICENSES/MIT.txt)
+Code: [MIT](LICENSES/MIT.txt)
+
+Visuals: [CC-BY-4.0](LICENSES/CC-BY-4.0)
 
 ## Contributing
 When making changes to the project, please ensure that all changes
