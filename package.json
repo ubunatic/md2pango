@@ -1,14 +1,14 @@
 {
   "name": "md2pango",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Markdown to Pango Markup Converter",
   "main": "src/md2pango.js",
   "bin": {
-    "md2pango": "src/md2pango.js"
+    "md2pango": "src/bin/md2pango"
   },
   "scripts": {
-    "test": "./test.sh",
-    "reuse": "reuse addheader -y 2021 src/md2pango.js -l MIT -c 'Uwe Jugel'"
+    "test": "make test",
+    "build": "make"
   },
   "repository": {
     "type": "git",

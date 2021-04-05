@@ -19,6 +19,10 @@ Files: *.sh
 Copyright: 2021 Uwe Jugel @ubunatic
 License: MIT
 
+Files: Makefile
+Copyright: 2021 Uwe Jugel @ubunatic
+License: MIT
+
 Files: *.json
 Copyright: 2021 Uwe Jugel @ubunatic
 License: MIT
