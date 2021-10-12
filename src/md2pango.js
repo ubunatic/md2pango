@@ -197,6 +197,10 @@ function convert(text) {
     }
 
     try_close_span()
+
+    // remove trailing newlines
+    output = output.map(line => line.replace(/ +$/, ''))
+
     return output.join('\n')
 }
 
