@@ -199,7 +199,7 @@ function convert(text) {
 
     try_close_span()
 
-    // remove trailing newlines
+    // remove trailing whitespaces
     output = output.map(line => line.replace(/ +$/, ''))
 
     return output.join('\n')
