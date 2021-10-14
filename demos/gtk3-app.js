@@ -11,7 +11,7 @@ const file       = GLib.path_get_basename(args[0])
 const dir        = GLib.path_get_dirname(args[0])
 const root       = GLib.path_get_dirname(dir)
 
-const test_md    = path(root, 'test.md')
+const test_md    = path(root, 'tests/test.md')
 const readme_md  = path(root, 'README.md')
 const contrib_md = path(root, 'CONTRIBUTING.md')
 const src        = path(root, 'src')

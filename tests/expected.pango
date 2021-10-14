@@ -1,0 +1,42 @@
+<big><big><big>T1</big></big></big>
+
+<span foreground='#aaa' background='#444'>
+<tt>
+ &lt;html&gt;
+     &lt;tag&gt;
+     &lt;/tag&gt;
+ &lt;/html&gt;
+</tt>
+</span>
+
+<span foreground='#bbb' background='#222'><tt>
+ # default colored
+ --&gt; more
+ &lt;-- code
+</tt></span>
+
+<big><big>T2</big></big>
+
+ 1. first
+ 2. second
+ 3. third
+
+<big>T3</big>
+
+ • a
+ • b
+ • c
+
+full link: <a href='https://example.com'>https://example.com</a>
+named link: <a href='https://example.com'>link</a>
+URI: https://example.com
+
+<b>bold</b> <i>emph</i> inline <tt>code</tt> example
+<b><tt>bold code</tt></b>
+<b>bold <i>emph</i></b>
+<b><i>bold-emph</i></b>
+<i>emph <b>bold</b> emph</i>
+
+<span foreground='red' background='orange'>
+<big><big>Red T2</big></big>
+</span>

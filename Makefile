@@ -8,5 +8,5 @@ src/bin/md2pango: src/md2pango.js
 	cat src/md2pango.js >> $@
 
 TESTS=all
-test:  ; ./test.sh $(TESTS)
+test:  ; ./tests/test.sh $(TESTS)
 reuse: ; reuse addheader src/*.js -y 2021 -l MIT -c 'Uwe Jugel'	

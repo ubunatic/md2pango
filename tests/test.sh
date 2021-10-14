@@ -8,10 +8,11 @@ fail() { echo -e "[FAIL] $*"; exit 1; }
 ok()   { echo -e "[OK] $*\n";         }
 
 test_md2pango() {
-    lines=$(node src/md2pango.js *.md | wc -l) &&
-    test "$lines" -gt 150 ||
-    fail "unexpected pango output, got $lines lines, expected > 150"
-    ok   "Output looks good! ($lines lines)"
+    set -e
+    node src/md2pango.js tests/test.md > tests/result.pango
+    diff "tests/result.pango" "tests/expected.pango" ||
+    fail "tests/result.pango does not match tests/expected.pango"
+    ok   "Output looks good!"
 }
 
 test_lint() {
