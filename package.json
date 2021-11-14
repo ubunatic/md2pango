@@ -1,6 +1,6 @@
 {
   "name": "md2pango",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Markdown to Pango Markup Converter",
   "main": "src/md2pango.js",
   "bin": {

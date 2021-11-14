@@ -31,6 +31,10 @@ Files: *.md
 Copyright: 2021 Uwe Jugel @ubunatic
 License: CC-BY-4.0
 
+Files: *.pango
+Copyright: 2021 Uwe Jugel @ubunatic
+License: CC-BY-4.0
+
 Files: *.svg
 Copyright: 2021 Uwe Jugel @ubunatic
 License: CC-BY-4.0
